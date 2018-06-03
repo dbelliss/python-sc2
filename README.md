@@ -1,3 +1,8 @@
+# To Disable the Viewer
+Go to /usr/local/lib/python3.6/dist-packages/sc2-0.8.0-py3.6.egg/sc2
+and then comment out these lines in main.py:  42-44,  54-60
+
+
 # A StarCraft II API Client for Python 3
 
 An easy-to-use library for writing StarCraft II AI Bots in Python 3. The ultimate goal is simplicity and ease of use, while still preserving all functionality. A simple worker rush bot takes no more than twenty lines of code, not two hundred. However, this library intends to provide both high and low level abstractions.
